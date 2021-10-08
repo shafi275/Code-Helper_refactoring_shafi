@@ -1,4 +1,4 @@
-package matrices;
+package metrices;
 
 import IO.ProjectReader;
 import java.io.IOException;
