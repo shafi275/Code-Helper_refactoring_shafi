@@ -58,7 +58,7 @@ public class Command {
                 System.out.println("\t1.clone");
                 System.out.println("\t2.File_Compress & File_Decompress");
                 System.out.println("\t3.Search");
-                System.out.println("\t4.Matrices\n\t\tFile Count-->fc\n\t\tMethod  Count-->mc\n\t\tLine of Code-->loc\n\tAverage line of Code-->a_loc");
+                System.out.println("\t4.Matrices\n\t\tFile Count-->fc\n\t\tMethod  Count-->mc\n\t\tLine of Code-->loc\n\t\tAverage line of Code-->a_loc");
                 System.out.println("\t5.exit");
 
             } else if (choice.equalsIgnoreCase("clone") | choice.equalsIgnoreCase("1")) {
