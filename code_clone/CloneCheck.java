@@ -27,10 +27,6 @@ public class CloneCheck {
     }
 
     public void getFileListforProject1(String projectOne) throws IOException {
-
-        // String currentpath = Command.currentPath;
-        // String current = currentpath.replaceAll("\\\\", "-").replace(":", "");//location of current file
-        // String Pathname1 = "H:\\coding_helper" + "\\ProcessFile$" + current + "-" + projectone;
         String Pathname1 = pathGenerate(projectOne);
         ProjectReader.getFileList(projectOne, Pathname1, ProjectFileName1);
 
@@ -80,15 +76,6 @@ public class CloneCheck {
 
         File f1 = new File(Pathname1);
         File f2 = new File(Pathname2);
-
-        if (f1.exists()) {
-            //   System.out.println("p1 exist");
-
-        }
-        if (f2.exists()) {
-            //   System.out.println("p2 exist");
-
-        }
         if (!f1.exists()) {
             ProjectReader.fileRead(Command.currentPath + "//" + project1, 0);
           
